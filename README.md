@@ -2,7 +2,7 @@
 
 A highly interactive, state-driven project management dashboard built with **Python** and the **Flet** framework. This project moves beyond static UI layouts to demonstrate advanced application state mutation, dynamic re-rendering, data entry handling, and physics-based Drag & Drop interactions.
 
-## 🌟 Key Engineering Features
+## Key Engineering Features
 
 * **Dynamic Data Entry**: Features a control panel allowing users to create new task notes in real-time. Tasks are automatically injected into the global state dictionary, color-coded based on user-selected dropdown tags, and rendered instantly.
 * **Real-time Drag & Drop API**: Utilizes Flet's `ft.Draggable` and `ft.DragTarget` classes to allow users to physically pick up task cards and move them across the screen. Includes visual "ghosting" feedback (`content_feedback`) during the drag event.
